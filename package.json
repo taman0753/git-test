@@ -1,13 +1,13 @@
 {
   "name": "git-test",
   "version": "1.0.0",
-  "description": "This is file to learn git and node",
+  "description": "This is a git and node",
   "main": "index.html",
   "scripts": {
 	"start":"npm run lite",
-    	"test": "echo \"Error: no test specified\" && exit 1"
-	"lite":"lite-server" 
- },
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"lite":"lite-server"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/taman0753/git-test.git"
@@ -18,7 +18,7 @@
     "url": "https://github.com/taman0753/git-test/issues"
   },
   "homepage": "https://github.com/taman0753/git-test#readme",
-  "dependencies": {
+  "devDependencies": {
     "lite-server": "^2.5.4"
   }
 }
